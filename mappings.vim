@@ -1,0 +1,15 @@
+
+"-------------Insert Mode Mappings--------------"
+
+"mapping esc to jj for easy escaping"
+imap jj <Esc>
+
+
+"-------------Normal Mode Mappings--------------"
+
+"Make it easy to edit the Vimrc file.
+nmap <Leader>ev :tabedit $MYVIMRC<cr>
+
+"Add simple highlight removal.
+nmap <Leader><space> :nohlsearch<cr>
+
