@@ -19,6 +19,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 "powerline/powerline - could use that also
 
+Plugin 'gregsexton/gitv'             " extension to fugitive shows better log 
 " plugins for snippets "
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'

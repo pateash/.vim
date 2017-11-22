@@ -36,5 +36,3 @@ source 	~/.vim/mappings.vim
 
 "-------------Auto-Commands--------------"
 source 	~/.vim/auto_commands.vim
-
-
