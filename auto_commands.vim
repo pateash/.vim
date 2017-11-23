@@ -2,5 +2,6 @@
 
 augroup autosourcing
 	autocmd!
-	autocmd BufWritePost .vimrc source %
+	autocmd BufWritePost .vimrc,.vim/*.vim source $MYVIMRC
 augroup END
+
