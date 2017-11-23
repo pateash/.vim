@@ -1,4 +1,4 @@
-set nocompatible              " use VIM , not VI
+	set nocompatible              " use VIM , not VI
 
 "------------Plugins---------------"
 source ~/.vim/plugins.vim
@@ -16,7 +16,6 @@ syntax enable
 set backspace=indent,eol,start                                          "Make backspace behave like every other editor.
 let mapleader = ',' 						    	"The default is \, but a comma is much better.
 set number								"Let's activate line numbers.
-
 
 "-------------Visuals--------------"
 source 	~/.vim/visuals.vim

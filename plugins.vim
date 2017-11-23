@@ -14,13 +14,18 @@ Plugin 'tpope/vim-fugitive' 				" command line support
 Plugin 'vim-syntastic/syntastic'			" syntax checker
 Plugin 'kien/ctrlp.vim'						" ControlP fuzzy search like sublime
 
+"---------Plugins for themes---------------
+Plugin 'flazz/vim-colorschemes'
+Plugin 'rafi/awesome-vim-colorschemes'			"themes
+
 "status line plugin"
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 "powerline/powerline - could use that also
 
 Plugin 'gregsexton/gitv'             " extension to fugitive shows better log 
-" plugins for snippets "
+
+"------Plugins for snippets 
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'				
