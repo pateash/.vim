@@ -1,4 +1,6 @@
-	set nocompatible              " use VIM , not VI
+set nocompatible              " use VIM , not VI
+syntax enable
+let mapleader = ',' 						    	"The default is \, but a comma is much better.
 
 "------------Plugins---------------"
 source ~/.vim/plugins.vim
@@ -10,14 +12,7 @@ source ~/.vim/plugins.vim
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 "
 
-
-" Put your non-Plugin stuff after this line
-syntax enable
-set backspace=indent,eol,start                                          "Make backspace behave like every other editor.
-let mapleader = ',' 						    	"The default is \, but a comma is much better.
-set number								"Let's activate line numbers.
-
-"-------------Visuals--------------"
+"-------------Visual Settings--------------"
 source 	~/.vim/visuals.vim
 
 "-------------Search--------------"
