@@ -13,7 +13,7 @@ Plugin 'mattn/emmet-vim'				    " emmet official Plugin
 Plugin 'tpope/vim-fugitive' 				" command line support
 Plugin 'vim-syntastic/syntastic'			" syntax checker
 Plugin 'kien/ctrlp.vim'						" ControlP fuzzy search like sublime
-
+Plugin 'thinca/vim-quickrun'				"running file from vim
 "---------Plugins for themes---------------
 Plugin 'flazz/vim-colorschemes'
 Plugin 'rafi/awesome-vim-colorschemes'			"themes

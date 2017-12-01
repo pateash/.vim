@@ -10,7 +10,7 @@ set t_Co=256								"Use all 256 colors. This is useful for Terminal Vim.
 
 set cursorline		"show cursor line
 set relativenumber	"show relative number in line number
-
+set list listchars=tab:›\ ,trail:-,extends:>,precedes:<,eol:¬  "showing characters for newline and whitespaces
 
 colorscheme PaperColor							"color scheme
 
