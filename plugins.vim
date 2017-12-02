@@ -31,7 +31,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 
 "------Plugins for programming-syntax
-Plugin "posva/vim-vue"		"for vue syntax
+Plugin 'posva/vim-vue'		"for vue syntax
 
 call vundle#end()            				" required
 filetype plugin indent on    				" required
