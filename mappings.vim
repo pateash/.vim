@@ -31,4 +31,4 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 nmap <Leader><space> :nohlsearch<cr>
 
 "Make NERDTree easier to toggle.
-nmap <D-1> :NERDTreeToggle<cr> "alt/meta-1
+nmap <Leader>1 :NERDTreeToggle<cr>
