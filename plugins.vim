@@ -17,6 +17,10 @@ Plugin 'thinca/vim-quickrun'				"running file from vim
 Plugin 'flazz/vim-colorschemes'
 Plugin 'rafi/awesome-vim-colorschemes'			"themes
 
+Plugin 'leafgarland/typescript-vim'                     "typescript syntax 
+Plugin 'Quramy/tsuquyomi'				"typescript ide support
+
+
 "status line plugin"
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'

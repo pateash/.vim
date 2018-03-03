@@ -1,7 +1,7 @@
 set nocompatible              " use VIM , not VI
 syntax enable
 let mapleader = ',' 						    	"The default is \, but a comma is much better.
-
+filetype off
 "------------Plugins---------------"
 source ~/.vim/plugins.vim
 
