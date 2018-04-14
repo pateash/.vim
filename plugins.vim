@@ -7,7 +7,7 @@ call vundle#begin() "all plugins go between start and end
 Plugin 'VundleVim/Vundle.vim' 				" let Vundle manage Vundle, required
 Plugin 'scrooloose/nerdtree'  				" for showing file as tree 
 Plugin 'tpope/vim-surround'				    " for having surrounding capabilities
-Plugin 'tomtom/tcomment_vim'				" commenting multiline
+Plugin 'tpope/vim-commentary'			" commenting multiline
 Plugin 'mattn/emmet-vim'				    " emmet official Plugin
 Plugin 'tpope/vim-fugitive' 				" command line support
 Plugin 'vim-syntastic/syntastic'			" syntax checker

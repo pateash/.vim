@@ -13,7 +13,7 @@ source ~/.vim/plugins.vim
 "
 
 "-------------Visual Settings--------------"
-source 	~/.vim/visuals.vim
+ source 	~/.vim/visuals.vim
 
 "-------------Search--------------"
 set hlsearch								"Highlight all matched terms.
