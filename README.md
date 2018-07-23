@@ -10,8 +10,13 @@ inside ~/.vim folder
 ln .vimrc ../.vimrc
 ``` 
 ## step-3
-install vundlevim from https://github.com/VundleVim/Vundle.vim , follow instruction
+install vundlevim from https://github.com/VundleVim/Vundle.vim , 
 
+Set up Vundle by cloning **Vundle** inside **~/.vim/bundle** where **~/.vim** is already created by **step-2**.
+
+`
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+`
 ## step-4
 install powerline fonts
 ```bash
