@@ -12,13 +12,32 @@ ln .vimrc ../.vimrc
 ## step-3
 install vundlevim from https://github.com/VundleVim/Vundle.vim , 
 
-Set up Vundle by cloning **Vundle** inside **~/.vim/bundle** where **~/.vim** is already created by **step-2**.
-
+Set up Vundle by cloning **Vundle** inside **~/.vim** where **~/.vim** is already created by **step-2**.
+this will put Vundle Inside .vim/bundle
 `
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 `
-## step-4
+
+## Step 4 
+Install Plugins:
+Launch vim and run :PluginInstall
+
+To install from command line: vim +PluginInstall +qall
+
+## step-5 
 install powerline fonts
+
+### for ubuntu/linux
 ```bash
 sudo apt-get install fonts-powerline
 ```
+
+### for mac 
+
+instructions- 
+https://medium.com/@elviocavalcante/5-steps-to-improve-your-terminal-appearance-on-mac-osx-f58b20058c84
+
+download directly ubuntuMono - ( ttf file)
+install and set in iterm ( already added in settings in iterm_profiles gist)
+https://github.com/powerline/fonts/tree/master/UbuntuMono
+
