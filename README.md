@@ -12,8 +12,8 @@ ln .vimrc ../.vimrc
 ## step-3
 install vundlevim from https://github.com/VundleVim/Vundle.vim , 
 
-Set up Vundle by cloning **Vundle** inside **~/.vim/bundle** where **~/.vim** is already created by **step-2**.
-
+Set up Vundle by cloning **Vundle** inside **~/.vim** where **~/.vim** is already created by **step-2**.
+this will put Vundle Inside .vim/bundle
 `
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 `
