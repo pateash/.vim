@@ -17,8 +17,22 @@ this will put Vundle Inside .vim/bundle
 `
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 `
-## step-4
+
+## Step 4 
+Install Plugins:
+Launch vim and run :PluginInstall
+
+To install from command line: vim +PluginInstall +qall
+
+## step-5 
 install powerline fonts
+
+### for ubuntu/linux
 ```bash
 sudo apt-get install fonts-powerline
 ```
+
+### for mac 
+https://medium.com/@elviocavalcante/5-steps-to-improve-your-terminal-appearance-on-mac-osx-f58b20058c84
+
+
