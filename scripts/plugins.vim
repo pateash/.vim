@@ -1,3 +1,4 @@
+" this will download plug.vim ( for vim-plug ) when we first load our .vimrc
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -5,7 +6,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 
-call plug#begin('~/.local/share/nvim/plugged') " for neovim
+" call plug#begin('~/.local/share/nvim/plugged') " for neovim
 call plug#begin('~/.vim/plugged')  " for vim
 Plug 'VundleVim/Vundle.vim' 				" let Vundle manage Vundle, required
 Plug 'scrooloose/nerdtree'  				" for showing file as tree
