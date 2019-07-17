@@ -3,7 +3,7 @@ syntax enable
 let mapleader = ',' 						    	"The default is \, but a comma is much better.
 filetype off
 "------------Plugins---------------"
-source ~/.vim/scripts/plugins.vim
+source ~/.vim/scripts/plugins.vim " downloading through vim-plug"
 
 " Brief help
 " :PluginList       - lists configured plugins

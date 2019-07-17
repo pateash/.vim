@@ -1,42 +1,44 @@
-filetype off                  " required
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
-set rtp+=~/.vim/bundle/Vundle.vim  " set the runtime path to include Vundle and initialize
 
-call vundle#begin() "all plugins go between start and end
-
-Plugin 'VundleVim/Vundle.vim' 				" let Vundle manage Vundle, required
-Plugin 'scrooloose/nerdtree'  				" for showing file as tree 
-Plugin 'tpope/vim-surround'				    " for having surrounding capabilities
-Plugin 'tpope/vim-commentary'			" commenting multiline
-Plugin 'mattn/emmet-vim'				    " emmet official Plugin
-Plugin 'tpope/vim-fugitive' 				" command line support
-Plugin 'vim-syntastic/syntastic'			" syntax checker
-Plugin 'kien/ctrlp.vim'						" ControlP fuzzy search like sublime
-Plugin 'thinca/vim-quickrun'				"running file from vim
+call plug#begin('~/.local/share/nvim/plugged') " for neovim
+call plug#begin('~/.vim/plugged')  " for vim
+Plug 'VundleVim/Vundle.vim' 				" let Vundle manage Vundle, required
+Plug 'scrooloose/nerdtree'  				" for showing file as tree
+Plug 'tpope/vim-surround'				    " for having surrounding capabilities
+Plug 'tpope/vim-commentary'			" commenting multiline
+Plug 'mattn/emmet-vim'				    " emmet official Plugin
+Plug 'tpope/vim-fugitive' 				" command line support
+Plug 'vim-syntastic/syntastic'			" syntax checker
+Plug 'kien/ctrlp.vim'						" ControlP fuzzy search like sublime
+Plug 'thinca/vim-quickrun'				"running file from vim
 "---------Plugins for themes---------------
-Plugin 'flazz/vim-colorschemes'
-Plugin 'rafi/awesome-vim-colorschemes'			"themes
+Plug 'flazz/vim-colorschemes'
+Plug 'rafi/awesome-vim-colorschemes'			"themes
 
-Plugin 'leafgarland/typescript-vim'                     "typescript syntax 
-Plugin 'Quramy/tsuquyomi'				"typescript ide support
+Plug 'leafgarland/typescript-vim'                     "typescript syntax
+Plug 'Quramy/tsuquyomi'				"typescript ide support
 
 
 "status line plugin"
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 "powerline/powerline - could use that also
 
-Plugin 'gregsexton/gitv'             " extension to fugitive shows better log 
+Plug 'gregsexton/gitv'             " extension to fugitive shows better log
 
 "------Plugins for snippets 
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'				
-Plugin 'honza/vim-snippets'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
 
 "------Plugins for programming-syntax
-Plugin 'posva/vim-vue'		"for vue syntax
-Plugin 'majutsushi/tagbar'	"for tags for a file(like functions and variables"
+Plug 'posva/vim-vue'		"for vue syntax
+Plug 'majutsushi/tagbar'	"for tags for a file(like functions and variables"
 
-call vundle#end()            				" required
-filetype plugin indent on    				" required
+call plug#end()
