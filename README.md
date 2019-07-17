@@ -4,11 +4,11 @@
 clone repository in root **~** as .vim/
 
 ## step-2 
-hard link **~/.vim/.vimrc** to **~/.vimrc**
+soft link **~/.vim/.vimrc** to **~/.vimrc**
 inside ~/.vim folder
 ```bash
-ln .vimrc ../.vimrc
-ln .gvimrc ../.gvimrc
+ln -s .vimrc ../.vimrc
+ln -s .gvimrc ../.gvimrc
 ``` 
 ## step-3
 install vundlevim from https://github.com/VundleVim/Vundle.vim , 
