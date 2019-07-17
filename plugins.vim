@@ -36,6 +36,7 @@ Plugin 'honza/vim-snippets'
 
 "------Plugins for programming-syntax
 Plugin 'posva/vim-vue'		"for vue syntax
+Plugin 'majutsushi/tagbar'	"for tags for a file(like functions and variables"
 
 call vundle#end()            				" required
 filetype plugin indent on    				" required
