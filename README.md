@@ -1,5 +1,6 @@
 # Vim Configuration files
 
+> Note - moved to neovim, https://github.com/ashishpatel0720/nvim repo instead
 ## step-1
 clone repository in root **~** as .vim/
 
